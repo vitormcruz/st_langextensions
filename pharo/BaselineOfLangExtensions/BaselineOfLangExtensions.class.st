@@ -1,5 +1,11 @@
-baselines
-baseline: spec 
+Class {
+	#name : #BaselineOfLangExtensions,
+	#superclass : #BaselineOf,
+	#category : 'BaselineOfLangExtensions'
+}
+
+{ #category : #baselines }
+BaselineOfLangExtensions >> baseline: spec [ 
     
 	<baseline>
         
@@ -16,3 +22,5 @@ baseline: spec
 "			
 	].
 
+
+]
